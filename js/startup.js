@@ -1,4 +1,4 @@
-window.onload = function() {
+document.addEventListener("DOMContentLoaded", function() {
     var icon = document.querySelector("link[rel='icon']");
     icon.type = "image.png";
     icon.rel = "icon";
@@ -45,6 +45,4 @@ window.onload = function() {
             document.body.classList.add("darktheme")
         }
     }
-
- 
- }
+});
